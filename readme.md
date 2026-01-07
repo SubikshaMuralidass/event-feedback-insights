@@ -23,7 +23,7 @@ Event organizers can quickly understand attendee sentiment without manually read
 
 ---
 
-### ⚠️ Assumptions (Mandatory)
+### ⚠️ Assumptions
 
 The following assumptions were made due to ambiguous or open-ended requirements:
 

@@ -23,14 +23,14 @@ Event organizers can quickly understand attendee sentiment without manually read
 
 ---
 
-### ⚠️ Assumptions (Mandatory)
+### ⚠️ Assumptions
 
 The following assumptions were made due to ambiguous or open-ended requirements:
 
 * Feedback is text-only and written in English.
 * Events already exist before feedback is submitted.
 * No user authentication is required (API is internal/admin-facing).
-* External AI API (Gemini) may be:
+* External AI API may be:
   * Rate-limited
   * Temporarily unavailable
 * AI summaries are best-effort and not mission-critical.
@@ -103,7 +103,7 @@ Beyond Pydantic type validation:
 
 ---
 
-### 🌐 External API (Gemini) Handling
+### 🌐 External API Handling
 
 * API key stored securely using environment variables
 * Rate-limit and quota errors handled gracefully
@@ -131,7 +131,7 @@ Beyond Pydantic type validation:
 * Wrapped using FastAPI exception handling
 * Returns appropriate HTTP status codes
 
-### 🤖 External API Failures (Gemini)
+### 🤖 External API Failures
 
 Handled scenarios:
 
